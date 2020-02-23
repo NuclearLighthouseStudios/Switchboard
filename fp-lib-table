@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name NLS)(type KiCad)(uri ${KIPRJMOD}/../../Libs/NLS.pretty)(options "")(descr ""))
+  (lib (name logos)(type KiCad)(uri ${KIPRJMOD}/../../Libs/logos.pretty)(options "")(descr ""))
+)
