@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Switchboard"
-Date "2019-11-03"
-Rev "r01"
+Date "2020-12-30"
+Rev "r02"
 Comp "Nuclear Lighthouse Studios"
 Comment1 "CC BY-NC-SA"
 Comment2 ""
@@ -457,7 +457,7 @@ L Device:R R101
 U 1 1 5D2C282B
 P 5000 5900
 F 0 "R101" H 4930 5854 50  0000 R CNN
-F 1 "1k" H 4930 5945 50  0000 R CNN
+F 1 "100" H 4930 5945 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4930 5900 50  0001 C CNN
 F 3 "~" H 5000 5900 50  0001 C CNN
 	1    5000 5900
@@ -583,10 +583,10 @@ $EndComp
 Wire Wire Line
 	5000 6400 5050 6400
 $Comp
-L power:PWR_FLAG #FLG?
+L power:PWR_FLAG #FLG0102
 U 1 1 5D696FAB
 P 2700 2450
-F 0 "#FLG?" H 2700 2525 50  0001 C CNN
+F 0 "#FLG0102" H 2700 2525 50  0001 C CNN
 F 1 "PWR_FLAG" V 2700 2577 50  0000 L CNN
 F 2 "" H 2700 2450 50  0001 C CNN
 F 3 "~" H 2700 2450 50  0001 C CNN
