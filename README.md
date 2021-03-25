@@ -19,6 +19,8 @@ Check out the accompanying 3D printable enclosure on Thingiverse: https://www.th
 
 ## BOM
 
+*All parts in the 10x range are optional and only for pedals that need a -9V supply.*
+
 | Reference | Quantity | Value   | Description                                  |
 | :-------- | -------: | ------: | :------------------------------------------- |
 | C1 C103   | 2        | 100n    | Generic ceramic capacitor                    |
@@ -26,6 +28,7 @@ Check out the accompanying 3D printable enclosure on Thingiverse: https://www.th
 | C101 C104 | 2        | 10µ     | Electrolytic capacitor, 16V                  |
 | C2        | 1        | 100µ    | Electrolytic capacitor, 16V                  |
 | D1        | 1        | LED     | 5mm LED                                      |
+|           | 1        |         | 19mm LED standoff for D1                     |
 | J4        | 1        |         | Pin Socket, 6 pins, 2.54mm spacing           |
 | J3 J5     | 2        |         | Neutrik NMJ4HCD2 Jack                        |
 | R1 R101   | 2        | 100     | Metal film resistor 1%, DIN 0207             |
