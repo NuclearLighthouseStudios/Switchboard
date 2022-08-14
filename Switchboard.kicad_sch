@@ -328,11 +328,11 @@
         )
       )
     )
-    (symbol "Device:CP" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (symbol "Device:C_Polarized" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "CP" (id 1) (at 0.635 -2.54 0)
+      (property "Value" "C_Polarized" (id 1) (at 0.635 -2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Footprint" "" (id 2) (at 0.9652 -3.81 0)
@@ -350,7 +350,7 @@
       (property "ki_fp_filters" "CP_*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "CP_0_1"
+      (symbol "C_Polarized_0_1"
         (rectangle (start -2.286 0.508) (end 2.286 1.016)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
@@ -376,7 +376,7 @@
           (fill (type outline))
         )
       )
-      (symbol "CP_1_1"
+      (symbol "C_Polarized_1_1"
         (pin passive line (at 0 3.81 270) (length 2.794)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -1526,7 +1526,7 @@
     (property "Value" "100n" (id 1) (at 86.106 69.088 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" (id 2) (at 84.1502 71.755 0)
+    (property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" (id 2) (at 84.1502 71.755 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 83.185 67.945 0)
@@ -1536,7 +1536,7 @@
     (pin "2" (uuid 328084d0-9f18-4e03-8e62-efb12b319b7f))
   )
 
-  (symbol (lib_id "Device:CP") (at 94.615 67.945 0) (unit 1)
+  (symbol (lib_id "Device:C_Polarized") (at 94.615 67.945 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005bfacb00)
     (property "Reference" "C2" (id 0) (at 97.6122 66.7766 0)
@@ -1612,7 +1612,7 @@
     (property "Value" "Conn_01x02_Female" (id 1) (at 55.8038 69.596 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" (id 2) (at 56.515 66.675 0)
+    (property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.8mm_D0.9mm_OD2.3mm" (id 2) (at 56.515 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 56.515 66.675 0)
@@ -1719,7 +1719,7 @@
     (pin "1" (uuid 9426382b-5378-49db-8450-7fe5c87c7103))
   )
 
-  (symbol (lib_id "Device:CP") (at 92.075 130.175 0) (unit 1)
+  (symbol (lib_id "Device:C_Polarized") (at 92.075 130.175 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d2b3c5c)
     (property "Reference" "C104" (id 0) (at 95.0722 129.0066 0)
@@ -1777,7 +1777,7 @@
     (pin "1" (uuid e6939f8c-730c-4e4a-a1c9-d6b57b51311f))
   )
 
-  (symbol (lib_id "Device:CP") (at 90.805 145.415 90) (unit 1)
+  (symbol (lib_id "Device:C_Polarized") (at 90.805 145.415 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d2c05c3)
     (property "Reference" "C101" (id 0) (at 90.805 138.938 90))
@@ -1792,7 +1792,7 @@
     (pin "2" (uuid eb6fed1b-fa38-4301-af22-67162999c08a))
   )
 
-  (symbol (lib_id "Device:CP") (at 90.805 156.845 90) (unit 1)
+  (symbol (lib_id "Device:C_Polarized") (at 90.805 156.845 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d2c116b)
     (property "Reference" "C102" (id 0) (at 90.805 150.368 90))
@@ -1812,7 +1812,7 @@
     (uuid 00000000-0000-0000-0000-00005d2c1841)
     (property "Reference" "C103" (id 0) (at 90.805 168.529 90))
     (property "Value" "100n" (id 1) (at 90.805 170.8404 90))
-    (property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" (id 2) (at 86.995 165.4302 0)
+    (property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" (id 2) (at 86.995 165.4302 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 90.805 164.465 0)
@@ -2010,7 +2010,7 @@
       (reference "#PWR0108") (unit 1) (value "-9VA") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005bfaca48"
-      (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+      (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-00005bfacb00"
       (reference "C2") (unit 1) (value "100µ") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
@@ -2022,7 +2022,7 @@
       (reference "C102") (unit 1) (value "47µ") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-00005d2c1841"
-      (reference "C103") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+      (reference "C103") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-00005d2b3c5c"
       (reference "C104") (unit 1) (value "10µ") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
@@ -2031,7 +2031,7 @@
       (reference "D1") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
     )
     (path "/00000000-0000-0000-0000-00005bfcadb6"
-      (reference "J2") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm")
+      (reference "J2") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.8mm_D0.9mm_OD2.3mm")
     )
     (path "/00000000-0000-0000-0000-00005bfa8551"
       (reference "J3") (unit 1) (value "AudioJack2_SwitchT") (footprint "NLS:MonoJack_6.35mm_Neutrik_NMJ4HCD2")
