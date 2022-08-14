@@ -961,6 +961,11 @@
       (net 13 "Net-(J4-Pad4)") (pinfunction "B") (pintype "passive") (tstamp cde3e0f4-abec-4358-8c94-edb29009e92f))
     (pad "9" thru_hole rect locked (at 5.3 4.7) (size 3.2 2) (drill oval 2.8 0.762) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "C") (pintype "passive") (tstamp 51050dc6-1186-4184-a364-beefe6635d2c))
+    (model "/home/sly/Creative/Electro/Libs/3D/3PDT.stp"
+      (offset (xyz -9 -6.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (layer "F.Cu")
@@ -1437,7 +1442,7 @@
   (footprint "logos:nlslogo_nocopper" locked (layer "B.Cu")
     (tedit 5BDECAF2) (tstamp 00000000-0000-0000-0000-00005c32490a)
     (at 156.845 83.82 180)
-    (attr exclude_from_pos_files exclude_from_bom)
+    (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "REF**" (at 0 -9 180) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp a6d9596d-397f-4b36-9b15-efdb34046846)
@@ -1498,7 +1503,7 @@
   (footprint "logos:foxlogo_nocopper" locked (layer "B.Cu")
     (tedit 5BDECAC7) (tstamp 00000000-0000-0000-0000-00005d31abbe)
     (at 128.905 82.55 180)
-    (attr exclude_from_pos_files exclude_from_bom)
+    (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "REF**" (at 0 -8.75 180) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 6c45bbd6-a0ad-49cf-a927-aac26f6fdf03)
