@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name sw_3pdt_x3)(type Legacy)(uri ${KIPRJMOD}/../../Libs/sw_3pdt_x3.lib)(options "")(descr ""))
+  (lib (name "sw_3pdt_x3")(type "KiCad")(uri "${KIPRJMOD}/../../Libs/sw_3pdt_x3.kicad_sym")(options "")(descr ""))
 )
