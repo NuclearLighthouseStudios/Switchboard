@@ -15,7 +15,7 @@ The PCB and enclosure were designed to fit Neutrik NMJ4HCD2 jacks but most jacks
 The pin header should be a precision ground one since they're usually lower profile and taller headers might prevent the boards from fitting correctly.
 Make sure yours are less than 7.5mm tall.
 
-Check out the accompanying 3D printable enclosure on Thingiverse: https://www.thingiverse.com/thing:4212939
+Check out the accompanying 3D printable enclosure here: https://github.com/NuclearLighthouseStudios/FXBox
 
 ## BOM
 
